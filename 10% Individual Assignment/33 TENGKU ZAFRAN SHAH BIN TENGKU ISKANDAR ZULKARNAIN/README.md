@@ -1,1 +1,1 @@
-# Sokcket Programming in C VS Python
+# Socket Programming in C VS Python
