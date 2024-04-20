@@ -31,6 +31,7 @@ ___
 
 ## Server Code
 Based on the diagram below, the server bind the socket to port 8888, listen for incoming connection and send a message back when connection is initiated :-
+
 ![Screenshot (98)](https://github.com/addff/2403-ITT440/assets/166005313/1004017e-397f-4d30-b02b-9435fca94da2)
 
 ## Client Code
