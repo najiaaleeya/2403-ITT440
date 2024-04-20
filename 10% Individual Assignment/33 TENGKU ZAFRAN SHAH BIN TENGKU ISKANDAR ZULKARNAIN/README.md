@@ -23,10 +23,8 @@ Socket programming is a method of establishing a brief connection between two ex
 _The diagram below showing how the `Client-Server` interact to establish connection_ :
 
 <p align="center">
-    <img src="[https://files.realpython.com/media/sockets-tcp-flow.1da426797e37.jpg](https://photos.google.com/photo/AF1QipPkmVQcxzU0mfLw7QwNyBvL2LFbcOd_oOlSNJFm)" alt="drawing" width="500"/>
+    <img src="https://photos.google.com/photo/AF1QipPkmVQcxzU0mfLw7QwNyBvL2LFbcOd_oOlSNJFm" alt="drawing" width="500"/>
 </p>
-
-*<p align="center"><a href="https://idiotdeveloper.com/file-transfer-using-tcp-socket-in-python3/" target= "blank">TCP Socket Flow</a></p>*
 
  ### Types of Socket Programming ?
 
