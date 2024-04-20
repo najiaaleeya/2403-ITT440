@@ -28,3 +28,9 @@ ___
 5. `accept`
 6. `send, recv`
 7. `close`
+
+## Server Code
+Based on the diagram below, the server bind the socket to port 8888, listen for incoming connection and send a message back when connection is initiated
+## Client Code
+## Output
+## Video
