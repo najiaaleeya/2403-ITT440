@@ -20,6 +20,10 @@ Socket programming is a method of establishing a brief connection between two ex
 
 `Server` --> Server's sole purpose is to do as what its name implies - serve its **Client**.
 
+_The diagram below showing how the `Client-Server` interact to establish connection_ :
+
+
+
  ### Types of Socket Programming ?
 
  
