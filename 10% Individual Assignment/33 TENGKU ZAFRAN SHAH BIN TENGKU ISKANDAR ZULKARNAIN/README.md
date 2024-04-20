@@ -37,4 +37,12 @@ _The diagram below showing how the `Client-Server` interact to establish connect
 
  ### Types of Socket Programming ?
 
+ ## Socket Programming in C
+
+ ## Socket Programming in Python
+
+ ## C or Python, Which Language is Better ?
+
+ ## Video
+
  
