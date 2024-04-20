@@ -39,8 +39,8 @@ _The diagram below showing how the `Client-Server` interact to establish connect
 
  ## Socket Programming in C
 
- ```C
 `Client`
+```C
 // Client side C/C++ program to demonstrate Socket  
 // programming  
 #include <arpa/inet.h>  
@@ -89,8 +89,10 @@ int main(int argc, char const* argv[])
        close(client_fd);  
        return 0;  
 }
+```
 
 `Server`
+```C
 // Server side C/C++ program to demonstrate Socket  
 // programming  
 #include <netinet/in.h>  
@@ -154,7 +156,8 @@ int main(int argc, char const* argv[])
        // closing the listening socket  
        shutdown(server_fd, SHUT_RDWR);  
        return 0;  
-}  
+}
+```
 
  ## Socket Programming in Python
 
