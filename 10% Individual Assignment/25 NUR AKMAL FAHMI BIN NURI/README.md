@@ -1,6 +1,6 @@
 `NUR AKMAL FAHMI BIN NURI | 2022608054 | CDCS2554A | PREPARED FOR SIR SHAHADAN SAAD`
 ___
-# TITLE : Server TCP.c Code Using Python (Socket Programming)
+# TITLE : Server TCP Code Using Python (Socket Programming)
 ## What is Server?
 * Server is a *computer program* or *equipment* that serves another program and its user. In other word, it is called as a client.
 * In the client-server programming model, a server program *receives* requests from client programs and *responds* to them.
@@ -32,7 +32,6 @@ ___
 ## Server Code
 Based on the diagram below, the server bind the socket to port 8888, listen for incoming connection and send a message back when connection is initiated :-
 
-![Screenshot (98)](https://github.com/addff/2403-ITT440/assets/166005313/1004017e-397f-4d30-b02b-9435fca94da2)
 
 ## Client Code
 Based on the diagram given, the client will create a socket and initiate a connection with the server and print out a response from the server :-
