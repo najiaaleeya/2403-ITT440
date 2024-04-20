@@ -39,7 +39,8 @@ _The diagram below showing how the `Client-Server` interact to establish connect
 
  ## Socket Programming in C
 
-`Client`
+# Client :
+
 ```C
 // Client side C/C++ program to demonstrate Socket  
 // programming  
@@ -91,7 +92,8 @@ int main(int argc, char const* argv[])
 }
 ```
 
-`Server`
+# Server :
+
 ```C
 // Server side C/C++ program to demonstrate Socket  
 // programming  
@@ -159,6 +161,22 @@ int main(int argc, char const* argv[])
 }
 ```
 
+ # Compiling :
+
+ ```C
+ gcc client.c -o client
+ gcc server.c -o server
+ ```
+
+ # Output :
+
+ ```C
+Client:Hello message sent
+Hello from server
+Server:Hello from client
+Hello message sent
+```
+ 
  ## Socket Programming in Python
 
  ## C or Python, Which Language is Better ?
