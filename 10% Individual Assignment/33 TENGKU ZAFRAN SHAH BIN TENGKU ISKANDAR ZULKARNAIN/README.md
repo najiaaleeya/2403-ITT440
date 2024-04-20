@@ -26,6 +26,15 @@ _The diagram below showing how the `Client-Server` interact to establish connect
     <img src="https://photos.google.com/photo/AF1QipPkmVQcxzU0mfLw7QwNyBvL2LFbcOd_oOlSNJFm" width="500"/>
 </p>
 
+* `socket()` --> Creating a new socket.
+* `bind()` --> Binding the socket to a specific port and an IP address so that socket can communicate.
+* `listen()` --> Waiting for feedback from the other end for incoming connection request.
+* `accept()` --> Accepting a connection from client and returning a brand new socket to start communicating.
+* `connect()` --> Establishing a connection to a remote and private server.
+* `send()` --> Sending data that was requested through the socket created.
+* `recv()` --> Receiving data that was sended from the socket.
+* `close()` --> Ending the session by closing the socket connection.
+
  ### Types of Socket Programming ?
 
  
