@@ -6,15 +6,15 @@ ___
 * In the client-server programming model, a server program receives requests from client programs and responds to them.
 
 ## What is TCP?
-* TCP also known as Transmission Control Protocol.
-* TCP located at the Transport Layer in the OSI Model.
-* TCP also is a communications standard that allows computer application programs to communicate with one another computing devices over a network.
-* TCP is designed to send the packets across networks and ensure the packets deliveries and arrivals successfulness.
+* TCP also known as **Transmission Control Protocol**.
+* TCP located at the **Transport Layer** in the OSI Model.
+* TCP also is a **communications standard** that allows computer application programs to communicate with one another computing devices over a network.
+* TCP is designed to send the **packets** across networks and ensure the packets deliveries and arrivals successfulness.
 
 ## What is Socket Programming?
-* Socket Programming is a communication connection point that user can be name and address in a network.
-* The socket API (Application Programming Interface) are used to send messages through a network.
-* An easy-to-use and reliable API for Python is available, and it maps straight to the system calls.
+* Socket Programming is a **communication connection point** that user can be name and address in a network.
+* The socket **API** (Application Programming Interface) are used to send messages through a network.
+* An **easy-to-use** and **reliable** API for Python is available, and it maps straight to the system calls.
 
 ## Client-Server TCP.c Socket Programming in Python
 ### Diagram below shows how client-server TCP.c in Python works :
@@ -23,3 +23,8 @@ ___
 ## Python Sockets
 1. `socket`
 2. `bind`
+3. `listen`
+4. `connect, connect_ex`
+5. `accept`
+6. `send, recv`
+7. `close`
