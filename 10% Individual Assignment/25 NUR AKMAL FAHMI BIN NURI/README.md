@@ -1,6 +1,6 @@
-`**NUR AKMAL FAHMI BIN NURI | 2022608054 | CDCS2554A | PREPARED FOR SIR SHAHADAN SAAD**`
+`NUR AKMAL FAHMI BIN NURI | 2022608054 | CDCS2554A | PREPARED FOR SIR SHAHADAN SAAD`
 ___
-# TITLE : Server TCP.c Code Using Python
+# TITLE : Server TCP.c Code Using Python (Socket Programming)
 ## What is Server?
 * Server is a computer program or equipment that serves another program and its user. In other word, it is called as a client.
 * In the client-server programming model, a server program receives requests from client programs and responds to them.
@@ -9,4 +9,11 @@ ___
 * TCP also known as Transmission Control Protocol.
 * TCP located at the Transport Layer in the OSI Model.
 * TCP also is a communications standard that allows computer application programs to communicate with one another computing devices over a network.
-* TCP is designed to send the packets across networks and ensure the packets deliveries and arrivals successfulness..
+* TCP is designed to send the packets across networks and ensure the packets deliveries and arrivals successfulness.
+
+## What is Socket Programming?
+* Socket Programming is a communication connection point that user can be name and address in a network.
+* The socket API (Application Programming Interface) are used to send messages through a network.
+* An easy-to-use and reliable API for Python is available, and it maps straight to the system calls.
+
+## [link](![client-server tcp](https://github.com/addff/2403-ITT440/assets/166005313/15cb3331-8bf6-4aa6-91e3-54908721e603)).
