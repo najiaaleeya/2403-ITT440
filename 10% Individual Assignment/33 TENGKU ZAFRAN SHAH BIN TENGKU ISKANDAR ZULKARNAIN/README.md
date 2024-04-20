@@ -1,7 +1,11 @@
 **Student Name** : Tengku Zafran Shah bin Tengku Iskandar Zulkarnain
+
 **Student ID**   : 2022842268
+
 **Group**        : M3CS2554A
+
 **Title**        : ITT440 10% Individual Assignment
+
 **Lecturer**     : Sir Shahadan Saad
 
 # Socket Programming in C VS Python
