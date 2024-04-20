@@ -30,7 +30,8 @@ ___
 7. `close`
 
 ## Server Code
-Based on the diagram below, the server bind the socket to port 8888, listen for incoming connection and send a message back when connection is initiated
+Based on the diagram below, the server bind the socket to port 8888, listen for incoming connection and send a message back when connection is initiated :-
 ## Client Code
+Based on the diagram given, the client will create a socket and initiate a connection with the server and print out a response from the server :-
 ## Output
 ## Video
