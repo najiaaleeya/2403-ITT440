@@ -17,6 +17,6 @@ ___
 * An easy-to-use and reliable API for Python is available, and it maps straight to the system calls.
 
 
-## Socket Programming in Python
-## ![client-server tcp](https://github.com/addff/2403-ITT440/assets/166005313/15cb3331-8bf6-4aa6-91e3-54908721e603).
-          uihjhef
+## Client-Server TCP.c Socket Programming in Python
+### Diagram below shows how client-server TCP.c in Python works :
+## ![client-server tcp](https://github.com/addff/2403-ITT440/assets/166005313/15cb3331-8bf6-4aa6-91e3-54908721e603)
