@@ -21,13 +21,14 @@ ___
 ## ![client-server tcp](https://github.com/addff/2403-ITT440/assets/166005313/15cb3331-8bf6-4aa6-91e3-54908721e603)
 
 ## Python Sockets
-1. `socket`
-2. `bind`
-3. `listen`
-4. `connect, connect_ex`
-5. `accept`
-6. `send, recv`
-7. `close`
+1. `socket()` = Creates a new socket.
+2. `bind()` = Associates the socket to a specific address and port.
+3. `listen()` = Starts listening for incoming connections on socket.
+4. `connect()` = Establishes a connection to a remote server.
+5. `accept()` = Accepts a connection from a client and returns a new socket for communication.
+6. `send()` = Sends data through the socket.
+7. `recv()` = Receives data from the socket.
+8. `close()` = Closes the socket connection.
 
 ## Server Code
 Based on the diagram below, the server bind the socket to port 8888, listen for incoming connection and send a message back when connection is initiated :-
