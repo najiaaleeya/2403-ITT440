@@ -35,11 +35,11 @@ _The diagram below showing how the `Client-Server` interact to establish connect
 * `recv()` --> Receiving data that was sended from the socket.
 * `close()` --> Ending the session by closing the socket connection.
 
- ### Types of Socket Programming ?
+### Types of Socket Programming ?
 
- ## Socket Programming in C
+## Socket Programming in C
 
-# Client :
+### Client :
 
 ```C
 // Client side C/C++ program to demonstrate Socket  
@@ -92,7 +92,7 @@ int main(int argc, char const* argv[])
 }
 ```
 
-# Server :
+### Server :
 
 ```C
 // Server side C/C++ program to demonstrate Socket  
@@ -161,14 +161,14 @@ int main(int argc, char const* argv[])
 }
 ```
 
- # Compiling :
+### Compiling :
 
  ```C
  gcc client.c -o client
  gcc server.c -o server
  ```
 
- # Output :
+### Output :
 
  ```C
 Client:Hello message sent
