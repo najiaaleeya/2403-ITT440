@@ -182,12 +182,12 @@ Hello message sent
  ### Client :
 
  ```Python
-import socket
+ import socket
 
-HOST = '127.0.0.1'  # The server's hostname or IP address
-PORT = 8080         # The port used by the server
+ HOST = '127.0.0.1'  # The server's hostname or IP address
+ PORT = 8080         # The port used by the server
 
-def main():
+ def main():
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.connect((HOST, PORT))
         message = b"Hello from client"
@@ -196,19 +196,19 @@ def main():
         data = s.recv(1024)
         print("Received:", data.decode())
 
-if __name__ == "__main__":
+ if __name__ == "__main__":
     main()
-```
+ ```
 
  ### Server :
 
  ```Python
-import socket
+ import socket
 
-HOST = '127.0.0.1'  # Symbolic name meaning all available interfaces
-PORT = 8080  # Arbitrary non-privileged port
+ HOST = '127.0.0.1'  # Symbolic name meaning all available interfaces
+ PORT = 8080  # Arbitrary non-privileged port
 
-def main():
+ def main():
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         s.bind((HOST, PORT))
@@ -224,9 +224,9 @@ def main():
                 print("Received:", data.decode())
                 conn.sendall(b"Hello from server")
 
-if __name__ == "__main__":
+ if __name__ == "__main__":
     main()
-```
+ ```
 
  ### Output :
  ```
@@ -243,11 +243,15 @@ if __name__ == "__main__":
 
  ## C or Python, Which Language is Better ?
 
+ There is no definite answer for above question as different programmers would have different opinion on which language is more suitable for socket programming. 
+ Alas, 
+
  | Socket Programming with C | Socket Programming with Python |
  | ------------------------- | ------------------------------ |
  | Older language            | Simpler and newer language     |
  | Longer line of codes      | Shorter line of codes          |
  | Complex for beginner      | Beginner-friendly              |
+ | Good for deeper understanding on the flow of socket programming | Only utilise the surface level of socket programming |
  
 
  ## Video
