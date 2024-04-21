@@ -247,9 +247,8 @@ There is no definite answer for above question as different programmers would ha
 
  | Socket Programming with C | Socket Programming with Python |
  | ------------------------- | ------------------------------ |
- | Older language            | Simpler and newer language     |
- | Longer line of codes      | Shorter line of codes          |
- | Complex and too detailed for beginner      | Beginner-friendly              |
+ | Longer line of codes with detailed commands | Shorter line of codes with simpler commands  |
+ | Complex and too detailed for beginner       | Beginner-friendly                            |
  | Good for deeper understanding on the flow of socket programming | Only utilise the surface level of socket programming | 
  
 
