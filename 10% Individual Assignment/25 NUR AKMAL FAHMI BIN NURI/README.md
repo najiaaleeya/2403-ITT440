@@ -37,6 +37,7 @@ Based on the diagram below, the server bind the socket to port 8888, listen for 
 
 ### Client Code
 Based on the diagram given, the client will create a socket and initiate a connection with the server and print out a response from the server :-
+
 ![Screenshot (108)](https://github.com/addff/2403-ITT440/assets/166005313/80bd6d0a-998d-4c8d-903e-ef45f3ae6e0b)
 
 ## Output
