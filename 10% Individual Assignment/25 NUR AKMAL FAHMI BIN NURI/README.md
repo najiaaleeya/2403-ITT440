@@ -45,6 +45,6 @@ Based on the diagram given, the client will create a socket and initiate a conne
 ![Screenshot (106)](https://github.com/addff/2403-ITT440/assets/166005313/9f6a7880-aea4-4a3c-8f8f-739fa81966b2)
 
 ### Client Output
-![Screenshot (104)](https://github.com/addff/2403-ITT440/assets/166005313/3de1781f-0db7-4222-a22e-3a0cbadbdeca)
+![Screenshot (104)](https://github.com/addff/2403-ITT440/assets/166005313/90bd6e88-3468-4f29-9a67-428a04c0523c)
 
 ## Video
