@@ -33,12 +33,12 @@ ___
 ## Codes (Both client and server code are required to run this programme)
 ### Server Code
 Based on the diagram below, the server bind the socket to port 8888, listen for incoming connection and send a message back when connection is initiated :-
-![Screenshot (107)](https://github.com/addff/2403-ITT440/assets/166005313/6fde5a62-0b46-4a2b-b972-2675e32807c0)
+![Screenshot (109)](https://github.com/addff/2403-ITT440/assets/166005313/b056f01d-f2bf-4a52-928f-f09c447caef6)
 
 ### Client Code
 Based on the diagram given, the client will create a socket and initiate a connection with the server and print out a response from the server :-
 
-![Screenshot (108)](https://github.com/addff/2403-ITT440/assets/166005313/80bd6d0a-998d-4c8d-903e-ef45f3ae6e0b)
+![Screenshot (110)](https://github.com/addff/2403-ITT440/assets/166005313/c42fa1f1-e918-45b7-afb9-ad5e9dd1363e)
 
 ## Output
 ### Server Output
