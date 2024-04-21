@@ -228,6 +228,19 @@ if __name__ == "__main__":
     main()
 ```
 
+ ### Output :
+ ```
+ Server listening on port 8080
+ Connected by ('127.0.0.1', 12345)  # The port number may vary
+ Received: Hello from client
+ ```
+
+ ```
+ Hello message sent
+ Received: Hello from server
+ ```
+
+
  ## C or Python, Which Language is Better ?
 
  ## Video
