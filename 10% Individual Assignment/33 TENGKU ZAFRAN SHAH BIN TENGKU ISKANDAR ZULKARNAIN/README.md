@@ -243,6 +243,13 @@ if __name__ == "__main__":
 
  ## C or Python, Which Language is Better ?
 
+ | Socket Programming with C | Socket Programming with Python |
+ | ------------------------- | ------------------------------ |
+ | Older language            | Simpler and newer language     |
+ | Longer line of codes      | Shorter line of codes          |
+ | Complex for beginner      | Beginner-friendly              |
+ 
+
  ## Video
 
  
