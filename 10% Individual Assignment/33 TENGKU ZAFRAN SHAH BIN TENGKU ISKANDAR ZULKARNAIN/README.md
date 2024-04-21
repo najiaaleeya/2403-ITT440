@@ -23,7 +23,7 @@ Socket programming is a method of establishing a brief connection between two ex
 _The diagram below showing how the `Client-Server` interact to establish connection_ :
 
 
-![How client-server works](https://github.com/addff/2403-ITT440/assets/166004983/8a4d080a-1999-4b43-91c5-4552913cbb9a)
+![How client-server works](https://github.com/addff/2403-ITT440/assets/166004983/8a4d080a-1999-4b43-91c5-4552913cbb9a = 200x200)
 
 * `socket()` --> Creating a new socket.
 * `bind()` --> Binding the socket to a specific port and an IP address so that socket can communicate.
@@ -34,7 +34,7 @@ _The diagram below showing how the `Client-Server` interact to establish connect
 * `read()` --> Receiving data that was sended from the socket.
 * `close()` --> Ending the session by closing the socket connection.
 
-### Types of Socket Programming ?
+There are various programming languages that can be used to code socket programming and the most popular ones are __C__ and __Python__. In this experiment on finding out which language is better for socket programming, a simple `Client-Server` program will be made to send *Hello* message to each other.
 
 ## Socket Programming in C
 
