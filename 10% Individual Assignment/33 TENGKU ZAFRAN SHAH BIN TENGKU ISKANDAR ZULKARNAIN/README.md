@@ -179,6 +179,55 @@ Hello message sent
  
  ## Socket Programming in Python
 
+ ### Client :
+
+ ```Python
+import socket
+
+HOST = '127.0.0.1'  # The server's hostname or IP address
+PORT = 8080         # The port used by the server
+
+def main():
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        s.connect((HOST, PORT))
+        message = b"Hello from client"
+        s.sendall(message)
+        print("Hello message sent")
+        data = s.recv(1024)
+        print("Received:", data.decode())
+
+if __name__ == "__main__":
+    main()
+```
+
+ ### Server :
+
+ ```Python
+import socket
+
+HOST = '127.0.0.1'  # Symbolic name meaning all available interfaces
+PORT = 8080  # Arbitrary non-privileged port
+
+def main():
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+        s.bind((HOST, PORT))
+        s.listen(1)
+        print("Server listening on port", PORT)
+        conn, addr = s.accept()
+        print('Connected by', addr)
+        with conn:
+            while True:
+                data = conn.recv(1024)
+                if not data:
+                    break
+                print("Received:", data.decode())
+                conn.sendall(b"Hello from server")
+
+if __name__ == "__main__":
+    main()
+```
+
  ## C or Python, Which Language is Better ?
 
  ## Video
