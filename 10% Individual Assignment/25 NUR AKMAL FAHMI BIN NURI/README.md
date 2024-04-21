@@ -30,11 +30,20 @@ ___
 7. `recv()` = Receives data from the socket.
 8. `close()` = Closes the socket connection.
 
-## Server Code
+## Codes (Both client and server are required to run this programme)
+### Server Code
 Based on the diagram below, the server bind the socket to port 8888, listen for incoming connection and send a message back when connection is initiated :-
+![Screenshot (107)](https://github.com/addff/2403-ITT440/assets/166005313/6fde5a62-0b46-4a2b-b972-2675e32807c0)
 
-
-## Client Code
+### Client Code
 Based on the diagram given, the client will create a socket and initiate a connection with the server and print out a response from the server :-
+![Screenshot (108)](https://github.com/addff/2403-ITT440/assets/166005313/80bd6d0a-998d-4c8d-903e-ef45f3ae6e0b)
+
 ## Output
+### Server Output
+![Screenshot (106)](https://github.com/addff/2403-ITT440/assets/166005313/9f6a7880-aea4-4a3c-8f8f-739fa81966b2)
+
+### Client Output
+![Screenshot (104)](https://github.com/addff/2403-ITT440/assets/166005313/6f54c2d7-fbda-4faa-beea-678bd7b79006)
+
 ## Video
