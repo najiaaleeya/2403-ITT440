@@ -243,15 +243,14 @@ Hello message sent
 
  ## C or Python, Which Language is Better ?
 
- There is no definite answer for above question as different programmers would have different opinion on which language is more suitable for socket programming. 
- Alas, 
+There is no definite answer for above question as different programmers would have different opinion on which language is more suitable for socket programming. Alas, what programmer seek in learning and creating socket programming will differ on which language that they use. At the end of the day, both languages give different exposure and knowledge to its user.
 
  | Socket Programming with C | Socket Programming with Python |
  | ------------------------- | ------------------------------ |
  | Older language            | Simpler and newer language     |
  | Longer line of codes      | Shorter line of codes          |
- | Complex for beginner      | Beginner-friendly              |
- | Good for deeper understanding on the flow of socket programming | Only utilise the surface level of socket programming |
+ | Complex and too detailed for beginner      | Beginner-friendly              |
+ | Good for deeper understanding on the flow of socket programming | Only utilise the surface level of socket programming | 
  
 
  ## Video
