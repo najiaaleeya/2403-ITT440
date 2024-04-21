@@ -23,7 +23,7 @@ Socket programming is a method of establishing a brief connection between two ex
 _The diagram below showing how the `Client-Server` interact to establish connection_ :
 
 
-![How client-server works](https://github.com/addff/2403-ITT440/assets/166004983/8a4d080a-1999-4b43-91c5-4552913cbb9a = 200x200)
+![How client-server works](https://github.com/addff/2403-ITT440/assets/166004983/8a4d080a-1999-4b43-91c5-4552913cbb9a =200x200)
 
 * `socket()` --> Creating a new socket.
 * `bind()` --> Binding the socket to a specific port and an IP address so that socket can communicate.
