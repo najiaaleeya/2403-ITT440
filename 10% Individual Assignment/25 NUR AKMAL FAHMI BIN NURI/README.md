@@ -30,7 +30,7 @@ ___
 7. `recv()` = Receives data from the socket.
 8. `close()` = Closes the socket connection.
 
-## Codes (Both client and server are required to run this programme)
+## Codes (Both client and server code are required to run this programme)
 ### Server Code
 Based on the diagram below, the server bind the socket to port 8888, listen for incoming connection and send a message back when connection is initiated :-
 ![Screenshot (107)](https://github.com/addff/2403-ITT440/assets/166005313/6fde5a62-0b46-4a2b-b972-2675e32807c0)
