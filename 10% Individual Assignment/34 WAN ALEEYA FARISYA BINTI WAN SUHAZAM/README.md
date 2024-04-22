@@ -16,7 +16,13 @@ works best for the intended application.
    functionality and is unable to reference the previous commands.
 
 ### 2. **C Shell**
-   The C shell, also known as `csh` is a shell developed by Bill Joy at the University of California Berkeley. This shell uses
-   a similar syntax as the C programming language and incorporates aliases into the available features.
+   The C shell, also known as `csh` is a shell developed by Bill Joy at the University of California Berkeley. This shell
+   uses a similar syntax as the C programming language and incorporates aliases into the available features.
 
-### 3. 
+### 3. **Bourne Again Shell**
+   It is also known as `bash` which is developed by Brian Fox. It is a combination of `sh`, `csh` and `ksh` capabilities.
+   Bash shell is the mostly used shell in Linux system as it is the default shell on Linux and Mac OSX. This shell can
+   recall the previous commands and edit them.
+
+### 4. **Korn Shell**
+   
