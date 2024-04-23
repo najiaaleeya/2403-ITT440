@@ -32,7 +32,7 @@ ___
 
 ## Codes (Both client and server code are required to run this programme)
 ### Server Code
-Based on the diagram below, the server bind the socket to port 8888, listen for incoming connection and send a message back when connection is initiated :-
+Based on the diagram below, the server bind the socket to port 27679, listen for incoming connection and send a message back when connection is initiated :-
 ![Screenshot (119)](https://github.com/addff/2403-ITT440/assets/166005313/4d86fe45-6ab0-4cfc-b86e-7e85cf9d86e7)
 
 ### Client Code
