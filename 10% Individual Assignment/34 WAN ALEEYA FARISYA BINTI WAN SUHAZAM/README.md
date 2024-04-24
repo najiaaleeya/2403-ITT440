@@ -38,7 +38,7 @@ works best for the intended application.
 
 ### Disadvantages
 * May be slower than the programs written in compiled languages.
-* Less suited for complex computational tasks.
+* Less suitable for complex computational tasks.
 * Scripting languages may be more prone to costly errors compared to other programming languages.
 * Database tasks that require a high level of database access are not suitable for shell scripting.
 
