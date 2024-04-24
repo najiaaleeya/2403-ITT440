@@ -11,7 +11,8 @@ ___
 * TCP also is a *communications standard* that allows computer application programs to communicate with one another computing devices over a network.
 * TCP is designed to send the *packets* across networks and ensure the packets deliveries and arrivals successfulness.
 
-##TCP Header
+## TCP Header
+
 ![Screenshot (123)](https://github.com/addff/2403-ITT440/assets/166005313/58ebf559-ec67-41c9-8b9a-b95b37931c30)
 
 ## What is Socket Programming?
