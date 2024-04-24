@@ -12,6 +12,7 @@ ___
 * TCP is designed to send the *packets* across networks and ensure the packets deliveries and arrivals successfulness.
 
 ## TCP Header
+### Figure below shows TCP header format with the bits
 ![Screenshot (123)](https://github.com/addff/2403-ITT440/assets/166005313/58ebf559-ec67-41c9-8b9a-b95b37931c30)
 
 ## What is Socket Programming?
