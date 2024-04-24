@@ -40,7 +40,7 @@ works best for the intended application.
 * Highly portable and capable of running on any UNIX-like system with minimal modification.
 
 ### Disadvantages
-* May be slower than programs written in compiled languages.
+* May be slower than the programs written in compiled languages.
 * Less suited for complex computational tasks.
 * Scripting languages may be more prone to costly errors compared to other programming languages.
 * Database tasks that require a high level of database access are not suitable for shell scripting.
