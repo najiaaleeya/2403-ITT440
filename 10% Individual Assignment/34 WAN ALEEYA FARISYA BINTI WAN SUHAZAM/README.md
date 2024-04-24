@@ -1,7 +1,7 @@
 # **How to Write a Simple Shell Script**
 ## What is a Shell Script?
 Shell scripting is the process of programming an operating system to perform particular actions based on a text file
-containing a series of commands. These commands from the shell script are interpreted, processed, and carried out via a
+containing a series of commands. These commands from the shell script are then interpreted, processed, and carried out via a
 shell interface. Time can be saved and human error can be eliminated by automating repetitive tasks.
 ## What is the Purpose of a Shell Script?
 The main purpose of shell scripting is to automate routine system operations including backing up files, monitoring system
