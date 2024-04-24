@@ -23,7 +23,7 @@ works best for the intended application.
    features of both Bourne and C shell, along with its improvements, such as string and array manipulation.
 ### 4. **Bourne Again Shell**
    It is also known as `bash` which is developed by Brian Fox. It is a combination of `sh`, `csh` and `ksh` capabilities.
-   Bash shell is the most used shell in Linux system as it is the default shell on Linux and Mac OSX. This shell can
+   `bash` shell is the most used shell in Linux system as it is the default shell on Linux and Mac OSX. This shell can
    recall the previous commands and edit them.
 ### 5. **Z Shell**
    Z shell, also known as `zsh`, was created by a student named Paul Festad at Princeton University in 1990. Z shell is an
