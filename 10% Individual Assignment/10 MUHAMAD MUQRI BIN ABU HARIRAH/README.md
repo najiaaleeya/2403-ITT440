@@ -6,10 +6,10 @@ The C language is a imperative language that is commonly used in Unix systems an
 
 
 ## C language heritage
-*The C language was obtained from another language which is called **BCPL** (Basic Combined 
- Programming Language).
-*Similar to C, BPCL was a block-structured procedural language used for systems programming.
-*The C language is now defined as an **ANSI** standard under ISO/IEC 9899.
+* The C language was obtained from another language which is called **BCPL** (Basic Combined 
+  Programming Language).
+* Similar to C, BPCL was a block-structured procedural language used for systems programming.
+* The C language is now defined as an **ANSI** standard under ISO/IEC 9899.
 
 
 ## Tools in C language
@@ -19,12 +19,12 @@ The C language is a imperative language that is commonly used in Unix systems an
    ALSO. The syntax of Man: '$man [OPTION]... [COMMAND NAME]...'.
 
 2) Editor - The editor that can be used:
-  *Vim
-  *Nano
-  *ee
-  *Graphical text editor
-  *Online editor
+  * Vim
+  * Nano
+  * ee
+  * Graphical text editor
+  * Online editor
 
 3) Compiler - The two most popular in Linux and Unix operating system:
-   *Gcc
-   *Clang
+   * Gcc
+   * Clang
