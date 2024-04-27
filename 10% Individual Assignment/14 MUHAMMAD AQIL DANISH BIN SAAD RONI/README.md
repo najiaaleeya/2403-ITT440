@@ -152,6 +152,115 @@ int main() {
     close(server_socket);
     return 0;
 }
+```
+# Simple Website Design (using HTML)
+
+This repository contains the `aqil.html` file, which is a simple webpage design using HTML and internal CSS. The webpage has the following structure:
+
+## HTML Structure
+
+The HTML file is organized into different sections:
+
+- **Header**: The header includes the title of the website. It's styled with a background color and centered text.
+    ```html
+    <header>
+        <h1>Simple Website</h1>
+    </header>
+    ```
+
+- **Navigation**: The navigation section includes a list of links for navigating the website.
+    ```html
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    ```
+
+- **Main Section**: This is the main content area of your website where you can add headings, paragraphs, and other HTML elements.
+    ```html
+    <section>
+        <h2>Welcome to my website!</h2>
+        <p>This is a minimalistic website. Customize this section with your own content.</p>
+    </section>
+    ```
+
+- **Footer**: The footer contains information such as the copyright statement and the name of the website owner.
+    ```html
+    <footer>
+        <p>&copy; Simple Website by aqildnish.</p>
+    </footer>
+    ```
+
+## CSS Styling
+
+The internal CSS for styling the webpage is included within the `<style>` tag in the `<head>` section. Here is an example of how the CSS is structured:
+
+```css
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #2D73A3;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Navigation styles */
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #2D73A3;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 
 
 
