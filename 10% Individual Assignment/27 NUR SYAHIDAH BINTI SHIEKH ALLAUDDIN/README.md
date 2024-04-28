@@ -1,4 +1,4 @@
-How to SSH FreeBSD using Mobaxterm
+# How to SSH FreeBSD using Mobaxterm
 
 Step 1: Launch Mobaxterm (Open Mobaxterm on your local machine) 
 
