@@ -1,12 +1,17 @@
 # How to SSH FreeBSD using Mobaxterm
 
+## WHAT IS SSH ?
+--> The Secure Shell (SSH) protocol is a method for securely sending commands to a computer over an unsecured network. SSH uses cryptography to authenticate and encrypt connections between devices. SSH also allows for tunneling, or port forwarding, which is when data packets are able to cross networks that they would not otherwise be able to cross. SSH is often used for controlling servers remotely, for managing infrastructure, and for transferring files.
+
 ## Step 1: Launch Mobaxterm (Open Mobaxterm on your local machine) 
 
 •	Link: https://mobaxterm.mobatek.net/download-home-edition.html
 
+•	Download the version that with the `green box` and install into your device
+
 ![image](https://github.com/addff/2403-ITT440/assets/112098507/604101ef-1d6e-4862-8d05-03d708ee3465)
 
-                Download the version that with the `green box` and install into your device.
+                
 
 ## Step 2: Open a New SSH Session
 
@@ -14,8 +19,19 @@
 
 ![image](https://github.com/addff/2403-ITT440/assets/112098507/d86cc218-9bdc-48d4-b41d-9890dfd72d3d)
 
+## Step 3: Open a terminal or SSH session and enter the following command.
 
-## Step 3: Configure the SSH Session
+•	`Log in` to the VM through SSH.
+
+•	Use a command like `‘ifconfig’` or `‘ipconfig’` to view network interface details, including the assigned IP address.
+
+•	This command will `display network interface` information on you Window system.
+
+
+![image](https://github.com/addff/2403-ITT440/assets/112098507/c6a2b262-22a6-44e3-986b-98544fb4cb8f)
+
+
+## Step 4: Configure the SSH Session
 
 •	In the `“Session settings”` window, select `“SSH”` as the protocol.
 
@@ -27,14 +43,14 @@
 
 ![image](https://github.com/addff/2403-ITT440/assets/112098507/54ed8af4-9490-4837-a4a1-f37e76718bf2)
 
-## Step 4: Connect to the FreeBSD System:
+## Step 5: Connect to the FreeBSD System:
 
 •	After configuring the session settings, click on the `“OK”` button to start the SSH connection.
 
 
 
 
-## Step 5: Authenticate 
+## Step 6: Authenticate 
 
 •	If prompted, enter the `password` for the specified `username` on your FreeBSD system to authenticate and establish the SSH connection.
 
