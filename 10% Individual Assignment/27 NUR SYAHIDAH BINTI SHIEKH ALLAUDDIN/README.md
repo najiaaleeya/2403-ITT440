@@ -6,11 +6,11 @@
 
 ![image](https://github.com/addff/2403-ITT440/assets/112098507/604101ef-1d6e-4862-8d05-03d708ee3465)
 
-                Download the version that with the * 'green box' and install into your device.
+                Download the version that with the 'green box' and install into your device.
 
 ## Step 2: Open a New SSH Session
 
-•	Click on the * '“Session”' button in the Mobaxterm toolbar.
+•	Click on the '“Session”' button in the Mobaxterm toolbar.
 
 ![image](https://github.com/addff/2403-ITT440/assets/112098507/2db7aea1-bf5a-4e01-b1eb-50754822ea82)
 
