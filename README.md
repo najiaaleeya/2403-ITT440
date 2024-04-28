@@ -1,5 +1,20 @@
-# 2403-ITT440
+# How to install gcc using pkg
 
-<img src="https://lh3.googleusercontent.com/pw/AP1GczO7H-Mn88PLqvD0QNuWf72WniQk5qKMFw-zjuHtnFfp9bZligR9cvLCWi73IUpJFg8kQYv19-s45bsP10MkxEXvys6_FOxCjQHIVrrKvFVh1WxE1gOUIovaJAMyfX6ZRM6hmuP7rgEWDmui4JUbnG_tmqhr0Qx8XH3btz_Mmu_LAX3HUp3Xtn-zny4Zm127stBhoL_Xsdw7S3YVqGxsBXW-1mYXQjabGMpNOHTh1XGx3slhU4Q0SIpm9_BsAZirg3zilheZAr_L5rtG7MJDfkiRGtILK95URoXAWFjnzq9OLvAngnndB3FHDAvhNtGSBopi3SD_S6gYQOFx6FBVwbpH9xRoUm9DuHiTT7nhWTgai8l5MmIjWQyiHyKK5LF8amH-GpyTGMQhDwrT5Z-CF4lKi-w9HAfXccgakLbDTakv7B7AndkHNq-92PR2I1bB320YzdiKzIDUFZ_D3QT7vZF05dnacv1yVJPmfaN-PxeUDtOvt-Sf8nH-Kh1TjzynGKC3gcE0iHAMgQbpznJwHHiG145QuRNIvLVFWUJ55CLcbgWRQ0jNmbp4bq5MpB9fb6mNLjkmDEiMCUXcMijd8rH1f48LuNAxxIHCwQpy7Jk-l5d7MI0iDBWMpgYOLoeaSeI0DEbSAhTpoGaND6_S8Ih5rW3sKuSLLaVNs977l0d1pgXpz8BtY6ORoonxk4ESyxMnkltNAu3GylAFjIud4lYGUolUhejXMO7AbbkA7KkAuSUKu3bG9hCY8TvRoEpJLVxLl5Bts5HywBYj1Mngd-CQRtYfzaQAqtNCHoBA3FX-9d-U-zyBOgIA-18TzaNaVarG9WO_pSZpE_uSadtzxi9eDFvSZ3Ad8KaMv5EHcVZuoZP7CD7S5qDhGF0MgNSlxXhmOv2fxLMHXzXfQWXr98h-WC3hqK_hzl1Qk9X_y52ajhsksneT9ot83RnskoRL9RFEjS13VuBXzabvUMjSlpugD6DaFQazoetwJOX6LWIptw5aj5KZs0r0oRFS62wr5wI=w720-h720-s-no-gm?authuser=0"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+## Step 1: Run MobaXterm
+* Click on Session button on the top left of the window, click SSH and enter the hostname of remote server, click OK.
+  
+![image](https://github.com/najiaaleeya/2403-ITT440/assets/167092733/517c26ff-6724-466c-b425-8ba5a961e5f8)
+
+## Step 2: Update package repository
+* By regularly updating the package repository, it ensures that the system has access to the latest software versions, dependencies, and security updates available from the FreeBSD package repository.
+* Use `sudo pkg update` command
+
+## Strp 3: Install gcc
+* Choose either default or specified version of gcc package to install.
+* Use `sudo pkg install gcc` command
+
+## Step 4: Confirm the installation
+* Enter `y` to confirm and proceed the installation.
+
+## Step 5: Verify the installation
+* 
