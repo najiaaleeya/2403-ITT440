@@ -12,7 +12,7 @@
 
 •	Click on the `“Session”` button in the Mobaxterm toolbar.
 
-![image](https://github.com/addff/2403-ITT440/assets/112098507/2db7aea1-bf5a-4e01-b1eb-50754822ea82)
+![image](https://github.com/addff/2403-ITT440/assets/112098507/d86cc218-9bdc-48d4-b41d-9890dfd72d3d)
 
 
 ## Step 3: Configure the SSH Session
