@@ -1,7 +1,7 @@
 # How to SSH FreeBSD using Mobaxterm
 
 ## WHAT IS SSH ?
---> The Secure Shell (SSH) protocol is a method for securely sending commands to a computer over an unsecured network. SSH uses cryptography to authenticate and encrypt connections between devices. SSH also allows for tunneling, or port forwarding, which is when data packets are able to cross networks that they would not otherwise be able to cross. SSH is often used for controlling servers remotely, for managing infrastructure, and for transferring files.
+--> The Secure Shell (SSH) protocol is a method for `securely sending commands` to a computer over an unsecured network. SSH uses `cryptography` to authenticate and `encrypt connections` between devices. SSH also allows for <a href= "https://www.cloudflare.com/learning/network-layer/what-is-tunneling/" target= "blank"> tunneling</a>, or port forwarding, which is when data <a href= "https://www.cloudflare.com/learning/network-layer/what-is-a-packet/" target= "blank"> packets</a> are able to cross networks that they would not otherwise be able to cross. SSH is often used for controlling servers remotely, for managing infrastructure, and for transferring files.
 
 ## How does SSH work?
 
