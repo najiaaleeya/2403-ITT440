@@ -81,3 +81,10 @@ Click "Next" to continue.
 
 
 ![Screenshot 2024-04-28 173416](https://github.com/addff/2403-ITT440/assets/167417723/39972175-4689-4fa1-b5f1-7de63f3705be)
+
+
+14.This is the interface of the software and you can proceed to the next process.
+
+
+
+![image](https://github.com/addff/2403-ITT440/assets/167417723/68589537-7bb0-4d15-85fe-0ce2a6f50aff)
