@@ -1,15 +1,6 @@
 # CREATE BASIC WEB SERVER USING C SOCKET AND HTML
 _______
-This C code implements a basic web server using sockets in Unix.
-
-## STEP BY STEP METHOD
-
-Before you begin, please make sure you alreadu have the necessary setup:
-* VMWare Workstation: You can download and install VMWare Workstation [here](https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html).
-
-* FreeBSD Image: Download the FreeBSD image [here](https://www.freebsd.org/where/) and run it on VMWare Workstation.
-
-* MobaXterm: You can download and install MobaXterm [here](https://mobaxterm.mobatek.net/download.html).
+This is a tutorial on how to create a whole C code that implements a basic web server using sockets in Unix.
 
 ## Function: `Header`
 These headers are included for various functionalities required by the C program:
