@@ -79,10 +79,6 @@ if __name__ == "__main__":
   </tr>
 </table>
 
-
-The 
-
-
 Refer comments to understand each code block.
 
 The server address and server port (TCP) is hard-coded into the script for simplicity purpose.
