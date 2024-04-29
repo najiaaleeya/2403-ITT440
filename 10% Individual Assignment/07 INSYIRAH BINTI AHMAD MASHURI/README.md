@@ -73,3 +73,11 @@ int main(int argc, char *argv[]) {
     close(sockfd);
     return 0;
 }
+```
+### Output :
+
+ ```C
+$ ./a.out example.com 80
+Please enter the message: Hello, Server!
+Hello, Server!
+```
