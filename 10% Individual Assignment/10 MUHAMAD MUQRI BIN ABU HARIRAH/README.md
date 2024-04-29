@@ -7,8 +7,7 @@ The C language is a imperative language that is commonly used in Unix systems an
 
 ## Why C
 * C is easy to debug because it does not require complex statement in execution.
-* C is one of the most widely used programming language so there are many existing libraries  
-  and tools are written in C.
+* C is one of the most widely used programming language so there are many existing libraries      and tools are written in C.
 * C has fast execution speed because it uses fewer instructions than other programming         
   languages.
 
