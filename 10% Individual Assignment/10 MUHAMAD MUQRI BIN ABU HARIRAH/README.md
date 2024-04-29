@@ -5,12 +5,12 @@
 The C language is a imperative language that is commonly used in Unix systems and is the lingua franca of implanted software development. The C language was developed for the Unix operating system by Dennis Ritchie and Brian Kernighan as a systems programming language. From its inception in the early 1970s, it has grown to become one of the most widely used computer languages ever.
 
 
-## C language heritage
-* The C language was obtained from another language which is called **BCPL** (Basic Combined 
-  Programming Language).
-* Similar to C, BPCL was a block-structured procedural language used for systems programming.
-* The C language is now defined as an **ANSI** standard under ISO/IEC 9899.
-
+## Why C
+* C is easy to debug because it does not require complex statement in execution.
+* C is one of the most widely used programming language so there are many existing libraries  
+  and tools are written in C.
+* C has fast execution speed because it uses fewer instructions than other programming         
+  languages.
 
 ## Tools in C language
 1) Man Pages - Man command in Linux is used to display the user manual of any command that can 
@@ -37,13 +37,11 @@ Python is programming language that was created by Guido van Rossum and it was r
      * System scripting
 
 ## Why Python
-* Python can work different platforms (Windows, Mac or Linux).
-* Python has a simple syntax similar to the english language.
+* Python can work wide different platforms such as Windows, Mac or Linux.
+* Python is a high-level language so it has a simple syntax similar to the english language.
 * Python has syntax that allows developers to write programs with fewer lines than some other     programming language.
-* Python programming can be executed as soon as it is written.
 
 ## Tools in Python language
-Compiler: 
 * python3
 
 ## Overview
