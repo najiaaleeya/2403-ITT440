@@ -1,6 +1,11 @@
 # CREATE BASIC WEB SERVER USING C SOCKET AND HTML
 _______
-This is a tutorial on how to create a whole C code that implements a basic web server using sockets in Unix.
+## What is C socket ?
+
+A C socket is a mechanism for network communication in the C programming language. It enables data exchange between two systems over a network (such as the internet) using the Transmission Control Protocol (TCP) or User Datagram Protocol (UDP).
+
+![image](https://github.com/addff/2403-ITT440/assets/166005754/80ef5ed2-e08c-424b-9dd1-0adaaeff69f1)
+
 
 ## Function: `Header`
 These headers are included for various functionalities required by the C program:
@@ -252,7 +257,10 @@ footer {
     width: 100%;
 }
 
+```
+## Output :
+![image](https://github.com/addff/2403-ITT440/assets/166005754/6a3a4a8e-ca7b-41a2-8abe-ccf7ca469d00)
 
-
+## Video :
 
 
