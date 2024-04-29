@@ -2,6 +2,13 @@
 **Student ID**   : 2022697784
 **Group**        : M3CS2554A
 
+#BSD Sockets API
+
+## WHAT IS BSD Sockets API ?
+
+--> The BSD (Berkeley Software Distribution) socket API is a set of system calls and library functions for networking applications in Unix-like operating systems. It originated in the BSD Unix operating system and has since been widely adopted by other Unix-like systems, including Linux. The BSD socket API provides an interface for creating, configuring, and managing network sockets, which are endpoints for communication between processes across a network. It supports both connection-oriented (e.g., TCP) and connectionless (e.g., UDP) communication protocols.
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
