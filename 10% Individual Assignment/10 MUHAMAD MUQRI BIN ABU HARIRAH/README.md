@@ -26,8 +26,8 @@ The C language is a imperative language that is commonly used in Unix systems an
   * Online editor
 
 3) Compiler - The two most popular in Linux and Unix operating system:
-   * Gcc
-   * Clang
+  * Gcc
+  * Clang
 
 ## Overview
 
