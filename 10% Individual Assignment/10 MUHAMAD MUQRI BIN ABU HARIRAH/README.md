@@ -2,7 +2,7 @@
 # Comparison Between C And Python
 
 ## Origin of the C language
-The C language is a imperative language that is commonly used in Unix systems and is the lingua franca of implanted software development. C language provided the base language as to analyzed the Sockets API. The C language was developed for the Unix operating system by Dennis Ritchie and Brian Kernighan as a systems programming language. From its inception in the early 1970s, it has grown to become one of the most widely used computer languages ever.
+The C language is a imperative language that is commonly used in Unix systems and is the lingua franca of implanted software development. The C language was developed for the Unix operating system by Dennis Ritchie and Brian Kernighan as a systems programming language. From its inception in the early 1970s, it has grown to become one of the most widely used computer languages ever.
 
 
 ## C language heritage
@@ -28,3 +28,26 @@ The C language is a imperative language that is commonly used in Unix systems an
 3) Compiler - The two most popular in Linux and Unix operating system:
    * Gcc
    * Clang
+
+## Overview
+
+## What is Python
+Python is programming language that was created by Guido van Rossum and it was released in 1991. Python is an Open-source, high-level and general-purpose programming language. It is used for: * Web development
+     * Software development
+     * System scripting
+
+## Why Python
+* Python can work different platforms (Windows, Mac or Linux).
+* Python has a simple syntax similar to the english language.
+* Python has syntax that allows developers to write programs with fewer lines than some other     programming language.
+* Python programming can be executed as soon as it is written.
+
+## Tools in Python language
+Compiler: 
+* python3
+
+## Overview
+
+
+
+## Video comparison between C and Python
