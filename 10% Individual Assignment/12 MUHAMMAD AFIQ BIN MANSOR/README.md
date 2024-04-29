@@ -5,7 +5,7 @@
 Sockets are used for client and server interaction. The client(s) connect to the server, exchange information and disconnect. More about <a href="https://www.ibm.com/docs/en/i/7.5?topic=communications-socket-programming" target= "blank"> Socket Programming</a> can be found here.
 
 ## Network Time Protocol (NTP)
-Network Time Protocol(NTP) is a protocol that allows the synchronization of system clocks. NTP provides reliability for transmitting and receiving accurate time over TCP/IP based networks. NTP is widely deployed to sync computer clocks to each other and to international standards
+Network Time Protocol(NTP) is a protocol that allows the synchronization of system clocks. NTP provides reliability for transmitting and receiving accurate time over TCP/IP based networks. NTP is widely deployed to sync computer clocks to each other and to international standards.
  
 ## Overview
 The script is designed to retrieve current time and date from a Network Time Server using Network time Protocol (NTP). It **establishes** a TCP connection with the Network Time Server, **sends** a request for the current time and date, **receives** the response, **decodes** binary data into a string and **returns** the data.
@@ -24,7 +24,11 @@ def get_time_from_server(server_address, server_port):
 
             # Receive the response from the server
             data = client_socket.recv(1024) # Accepting 1024 bytes of data
-            return data.decode() # Convert binary data into string using UTF-8
+            
+            # Extract date and time from the response and decode to string
+            date_time_bytes = [part.decode() for part in data.split()[1:3]]  # Decode bytes to string
+            date_time_str = ' '.join(date_time_bytes)  # Join date and time with a space
+            return date_time_str  # Return date and time as string
 
         except ConnectionError:
             raise ConnectionError("Failed to connect to the server.")
@@ -40,13 +44,13 @@ if __name__ == "__main__":
     # Get the current time from the server
     try:
         current_time = get_time_from_server(server_address, server_port)
-        print("Current time received from the server:", current_time)
+        print("Current date and time received from the server:", current_time)
 
     except (ConnectionError, TimeoutError) as e:
         print("Error:", e)
 ```
 ### Output
-![Example Image](https://github.com/addff/2403-ITT440/blob/main/10%25%20Individual%20Assignment/12%20MUHAMMAD%20AFIQ%20BIN%20MANSOR/Output.png)
+![Example Image](https://github.com/addff/2403-ITT440/blob/main/10%25%20Individual%20Assignment/12%20MUHAMMAD%20AFIQ%20BIN%20MANSOR/TimeOutput.png)
 
  
 ## Script Documentation
@@ -76,17 +80,13 @@ if __name__ == "__main__":
 </table>
 
 
-
+The 
 
 
 Refer comments to understand each code block.
 
 The server address and server port (TCP) is hard-coded into the script for simplicity purpose.
 
- ## Output
+## Video Demonstration
 
- 
- ## Useful Links
-
-## Contributors
 
