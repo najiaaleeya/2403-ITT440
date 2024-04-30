@@ -1,8 +1,11 @@
 # CREATE BASIC WEB SERVER USING C SOCKET AND HTML
-_______
 ## What is C socket ?
 
-A C socket is a mechanism for network communication in the C programming language. It enables data exchange between two systems over a network (such as the internet) using the Transmission Control Protocol (TCP) or User Datagram Protocol (UDP).
+C socket is a mechanism for network communication in the C programming language. 
+
+It enables data exchange between two systems over a network (internet) using the TCP or UDP.
+
+Below is the common and important function when we want to start using C socket :
 
 ![image](https://github.com/addff/2403-ITT440/assets/166005754/80ef5ed2-e08c-424b-9dd1-0adaaeff69f1)
 
@@ -10,23 +13,23 @@ A C socket is a mechanism for network communication in the C programming languag
 ## Function: `Header`
 These headers are included for various functionalities required by the C program:
 
-- `stdio.h`: This header provides standard input/output functionality. It includes functions like `printf` and `fopen` for reading and writing files.
+- `stdio.h`: Provides standard input/output functionality for reading and writing files.
 
-- `stdlib.h`: This header provides general utilities and memory management functions such as memory allocation (`malloc`, `calloc`, `realloc`) and process control (`exit`, `system`).
+- `stdlib.h`: Provides general utilities and memory management functions such as memory allocation and process control.
 
-- `string.h`: This header provides string manipulation functions like `strcpy`, `strcat`, `strlen`, etc.
+- `string.h`: Provides string manipulation functions such as `strcpy`.
 
-- `unistd.h`: This header provides access to the POSIX operating system API. It includes various function declarations like `close`, `read`, and `write`.
+- `unistd.h`: Provides access to the Portable Operating Sytem Interface (POSIX) system API. It includes various function declarations like `close`, `read`, and `write`.
 
-- `arpa/inet.h`: This header provides functions for handling internet addresses, including conversions between network and presentation formats (`inet_ntoa`, `inet_addr`).
+- `arpa/inet.h`: Provides functions for handling internet addresses, including conversions between network and presentation formats (`inet_ntoa`, `inet_addr`).
 
-- `sys/types.h` and `sys/socket.h`: These headers provide the necessary data structures and function declarations for socket programming.
+- `sys/types.h` and `sys/socket.h`: Provide the necessary data structures and function declarations for socket programming.
 
-- `netinet/in.h`: This header provides the data structures required for handling internet addresses, specifically the `struct sockaddr_in` structure used for IPv4 socket addresses.
+- `netinet/in.h`: Provides the data structures required for handling internet addresses, specifically the `struct sockaddr_in` structure used for IPv4 socket addresses.
 
-Below is the necessary C code to be included :
+Below is the code snippet based on the given headers above :
 ```
-#include <stdio.h>
+#include <stdio.h>    
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
@@ -35,14 +38,14 @@ Below is the necessary C code to be included :
 #include <sys/socket.h>
 #include <netinet/in.h>
 
-#define PORT 8080
+#define PORT 8080                        --> default HTTP port for web server
 #define BUFFER_SIZE 1024
-#define HTML_FILE "aqil/design.html"
+#define HTML_FILE "aqil/design.html"     --> define the HTML file for website design code
 ```
 
 ## Function: `handle_request`
 
-This function is responsible for handling incoming HTTP requests from clients. It reads the content of a static HTML file specified by the `HTML_FILE` constant and sends it as a response to the client. If the HTML file cannot be opened, it prints an error message and exits the program.
+This function handles incoming HTTP requests from clients. It reads the content of a static HTML file specified by the `HTML_FILE` constant and sends it as a response to the client. If the HTML file cannot be opened, it prints an error message and exits the program.
 
 ### Parameters:
 - `client_socket`: Integer representing the socket descriptor for the client connection.
@@ -151,7 +154,7 @@ int main() {
 ```
 # Simple Website Design (using HTML)
 
-This repository contains the `aqil.html` file, which is a simple webpage design using HTML and internal CSS. The webpage has the following structure:
+The `aqil.html` file is a simple webpage design using HTML and internal CSS. The webpage has the following structure:
 
 ## HTML Structure
 
@@ -258,6 +261,8 @@ footer {
 }
 
 ```
+
+
 ## Output :
 ![image](https://github.com/addff/2403-ITT440/assets/166005754/6a3a4a8e-ca7b-41a2-8abe-ccf7ca469d00)
 
