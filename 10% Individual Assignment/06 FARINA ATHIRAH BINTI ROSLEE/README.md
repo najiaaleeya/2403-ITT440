@@ -9,4 +9,4 @@
 - SIGTERM signal is used for terminating a program. The SIGTERM can also be referred as a soft kill because the process that receives the SIGTERM signal may choose to ignore it.
 
 ### How to Send SIGTERM?
-- 
+- To send SIGTERM signal in C, we can use kill() function. Remember that SIGTERM allows the process to clean up and exit gracefully. It is much mire better to use SIGTERM first and only use SIGKILL for last resort.
