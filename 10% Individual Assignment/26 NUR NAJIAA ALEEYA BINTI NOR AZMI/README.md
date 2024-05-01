@@ -2,36 +2,38 @@
 
 ## Introduction
 GCC stands for GNU Compiler Collection. It is a free software compiler system capable of compiling several programming languages, 
-including C, C++, Objective-C, and Fortran.
+including C, C++, Objective-C, and Fortran. GCC is widely used in creating software for Unix-like systems and it has been adapted for various platforms, 
+demonstrating its adaptability and flexibility in the realm of open-source programming.
 
 ## How to Install GCC Compiler?
-There are several ways to install GCC and the preferred method depends on customization needs or if a project requires a specific GCC version.
-* Method 1: Install GCC Compiler from Repositories
-* Method 2: Install Multiple GCC Versions
 
-`Make sure you have already download and run VMware and MobaXterm on your PC before you start`
+** Make sure you have already download and run VMware and MobaXterm on your PC before you start
 
-## Method 1: Install GCC Compiler from Repositories
+## Install GCC Compiler from Repositories
 
 ### Step 1: Update package repository
 By regularly updating the package repository, it ensures that the system has access to the latest software versions, dependencies and security updates available from the package repository.
 To update package repository, use the following command:
   ```
-  sudo pkg update
+  pkg update
   ```
+![image](https://github.com/najiaaleeya/2403-ITT440/assets/167092733/742f9d71-46f8-4a42-a01a-eca187ecd940)
+
 
 ### Step 2: Install GCC 
 To install GCC, use the following command:
   ```
-  sudo pkg install gcc
+  pkg install gcc
   ```
 If GCC is already installed on system, the command will list the version installed.
 
+![image](https://github.com/najiaaleeya/2403-ITT440/assets/167092733/e3ad1af0-44dd-4f37-8af5-26e873d9faee)
+
+
 ### Step 3: Install build-essential package
-You can install GCC with the build-essential package. This will install GCC as well as other popular packages such as `make`, which is often used with GCC to automate the compilation process of bigger software.
 To install build-essentials, use the following command:
   ```
-  sudo pkg install build-essential
+  pkg install build-essential
   ```
 
 ### Step 4: Test GCC installation
