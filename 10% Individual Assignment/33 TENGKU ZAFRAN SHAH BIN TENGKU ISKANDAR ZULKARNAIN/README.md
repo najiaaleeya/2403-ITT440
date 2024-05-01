@@ -181,51 +181,56 @@ Hello message sent
  ### Client :
 
  ```Python
- import socket
+import socket
 
- HOST = '127.0.0.1'  # The server's hostname or IP address
- PORT = 8080         # The port used by the server
+# Create a socket object
+s = socket.socket()
 
- def main():
-    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-        s.connect((HOST, PORT))
-        message = b"Hello from client"
-        s.sendall(message)
-        print("Hello message sent")
-        data = s.recv(1024)
-        print("Received:", data.decode())
+# Define the port on which you want to connect
+port = 27679
 
- if __name__ == "__main__":
-    main()
+try:
+    # Connect to the server
+    s.connect(('localhost', port))
+
+    # Receive data from server and print it
+    print(s.recv(1024).decode())
+
+    # Close the connection
+    s.close()
+except ConnectionRefusedError:
+    print("Connection refused. Make sure the server is running.")
+
  ```
 
  ### Server :
 
  ```Python
- import socket
+import socket
 
- HOST = '127.0.0.1'  # Symbolic name meaning all available interfaces
- PORT = 8080  # Arbitrary non-privileged port
+# Create a socket object
+s = socket.socket()
 
- def main():
-    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-        s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-        s.bind((HOST, PORT))
-        s.listen(1)
-        print("Server listening on port", PORT)
-        conn, addr = s.accept()
-        print('Connected by', addr)
-        with conn:
-            while True:
-                data = conn.recv(1024)
-                if not data:
-                    break
-                print("Received:", data.decode())
-                conn.sendall(b"Hello from server")
+# Define the port on which you want to connect
+port = 27679
 
- if __name__ == "__main__":
-    main()
- ```
+# Bind to the port
+s.bind(('localhost', port))
+
+# Wait for client connection
+s.listen(5)
+
+while True:
+    # Establish connection with client
+    c, addr = s.accept()
+    print('Got connection from', addr)
+
+    # Send a thank you message to the client
+    c.send('Thank you for establishing connection'.encode())
+
+    # Close the connection
+    c.close()
+
 
  ### Output :
  ```
