@@ -238,9 +238,14 @@ while True:
 
  ![Screenshot 2024-05-01 213443](https://github.com/addff/2403-ITT440/assets/166004983/5492f40a-53d6-4b05-b1c7-5bdb9838a339)
 
+ * The server will print the IP address and the port that were used to establish connection between client and server.
+ * The port will be different if the server code is run again and it will never be the same as before.
+
  The output in client terminal is as follows:
 
  ![Screenshot 2024-05-01 213527](https://github.com/addff/2403-ITT440/assets/166004983/019fcf5c-e975-4757-9860-5cb47398ffbe)
+
+ * The client will print out the message if connection is successfully established between client and server.
  
  ## C or Python, Which Language is Better ?
 
