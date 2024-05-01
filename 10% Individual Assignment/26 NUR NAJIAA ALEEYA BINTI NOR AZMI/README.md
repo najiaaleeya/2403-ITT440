@@ -1,24 +1,42 @@
-# How to install gcc using pkg
+# How to Install GCC Compiler using pkg Package Manager
 
-## Step 1: Run MobaXterm
-* Click on Session button on the top left of the window, click SSH and enter the hostname of remote server, click OK.
-  
-![image](https://github.com/najiaaleeya/2403-ITT440/assets/167092733/517c26ff-6724-466c-b425-8ba5a961e5f8)
+## Introduction
+GCC stands for GNU Compiler Collection. It is a free software compiler system capable of compiling several programming languages, 
+including C, C++, Objective-C, and Fortran.
 
-## Step 2: Update package repository
-* By regularly updating the package repository, it ensures that the system has access to the latest software versions, dependencies, and security updates available from the FreeBSD package repository.
+## How to Install GCC Compiler?
+There are several ways to install GCC and the preferred method depends on customization needs or if a project requires a specific GCC version.
+* Method 1: Install GCC Compiler from Repositories
+* Method 2: Install Multiple GCC Versions
+
+`Make sure you have already download and run VMware and MobaXterm on your PC before you start`
+
+## Method 1: Install GCC Compiler from Repositories
+
+### Step 1: Update package repository
+By regularly updating the package repository, it ensures that the system has access to the latest software versions, dependencies and security updates available from the package repository.
+To update package repository, use the following command:
   ```
   sudo pkg update
   ```
 
-## Strp 3: Install gcc
-* Choose either default or specified version of gcc package to install.
+### Step 2: Install GCC 
+To install GCC, use the following command:
   ```
   sudo pkg install gcc
   ```
+If GCC is already installed on system, the command will list the version installed.
 
-## Step 4: Confirm the installation
-* Enter `y` to confirm and proceed the installation.
+### Step 3: Install build-essential package
+You can install GCC with the build-essential package. This will install GCC as well as other popular packages such as `make`, which is often used with GCC to automate the compilation process of bigger software.
+To install build-essentials, use the following command:
+  ```
+  sudo pkg install build-essential
+  ```
 
-## Step 5: Verify the installation
-* 
+### Step 4: Test GCC installation
+To check if GCC has been installed, use the following command:
+  ```
+  gcc --version
+  ```
+This should return the GCC version and license as follows:
