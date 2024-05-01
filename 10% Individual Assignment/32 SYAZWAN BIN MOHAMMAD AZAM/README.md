@@ -8,7 +8,7 @@ SIGKILL is a signal which is a method of communication between multiple process.
 SIGKILL give command to the process to terminate immediately. This command cannot be ignored or blocked and once the process was killed while it is running threads, those will be killed as well. If the process and its threads cannot be terminated by SIGKILL, this indicates an operating system malfunction
 
 ## How To Send Signal SIGKILL
-```python 
+```c
 #include <signal.h>
 #include <stdio.h>
 #include <stdlib.h>
