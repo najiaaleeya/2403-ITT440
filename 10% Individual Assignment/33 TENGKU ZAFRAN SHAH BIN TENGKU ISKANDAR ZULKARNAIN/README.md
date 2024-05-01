@@ -46,6 +46,8 @@ There are various programming languages that can be used to code socket programm
 #include <string.h>
 #include <unistd.h>
 #include <arpa/inet.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
 
 #define PORT 27679
 
@@ -105,41 +107,46 @@ int main() {
 #include <string.h>
 #include <unistd.h>
 #include <arpa/inet.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
 
 #define PORT 27679
 
 int main() {
-    int sock = 0, valread;
+    int sock;
     struct sockaddr_in serv_addr;
-    char *message = "Hello from client";
-    char buffer[1024] = {0};
 
     // Create socket
     if ((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
-        printf("\n Socket creation error \n");
-        return -1;
+        perror("socket creation failed");
+        exit(EXIT_FAILURE);
     }
 
+    // Server details
     serv_addr.sin_family = AF_INET;
     serv_addr.sin_port = htons(PORT);
 
     // Convert IPv4 and IPv6 addresses from text to binary form
     if(inet_pton(AF_INET, "127.0.0.1", &serv_addr.sin_addr)<=0) {
-        printf("\nInvalid address/ Address not supported \n");
-        return -1;
+        perror("invalid address");
+        exit(EXIT_FAILURE);
     }
 
     // Connect to server
     if (connect(sock, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0) {
-        printf("\nConnection Failed \n");
-        return -1;
+        perror("connection failed");
+        exit(EXIT_FAILURE);
     }
 
     // Receive data from server and print it
-    valread = read(sock, buffer, 1024);
+    char buffer[1024] = {0};
+    if (read(sock, buffer, 1024) < 0) {
+        perror("read failed");
+        exit(EXIT_FAILURE);
+    }
     printf("%s\n", buffer);
 
-    // Close the connection
+    // Close the socket
     close(sock);
 
     return 0;
@@ -148,13 +155,18 @@ int main() {
 
 ### Compiling :
 
- ```C
- gcc client.c -o client
- gcc server.c -o server
- ```
+![Screenshot 2024-05-01 234747](https://github.com/addff/2403-ITT440/assets/166004983/827ecd98-5650-4329-8a08-7f026d598cab)
+
 
 ### Output :
 
+The output in server terminal is as follows:
+
+![Screenshot 2024-05-01 234046](https://github.com/addff/2403-ITT440/assets/166004983/b18ec33e-4e4b-4a51-9633-cd723dcab25d)
+
+The output in client terminal is as follows:
+
+![Screenshot 2024-05-01 234058](https://github.com/addff/2403-ITT440/assets/166004983/cae7fd88-0b73-4203-9337-f08a75cb70ed)
 
  
  ## Socket Programming in Python
