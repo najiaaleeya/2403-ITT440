@@ -230,21 +230,18 @@ while True:
 
     # Close the connection
     c.close()
-
+```
 
  ### Output :
- ```
- Server listening on port 8080
- Connected by ('127.0.0.1', 12345)  # The port number may vary
- Received: Hello from client
- ```
 
- ```
- Hello message sent
- Received: Hello from server
- ```
+ The output in server terminal is as follows:
 
+ ![Screenshot 2024-05-01 213443](https://github.com/addff/2403-ITT440/assets/166004983/5492f40a-53d6-4b05-b1c7-5bdb9838a339)
 
+ The output in client terminal is as follows:
+
+ ![Screenshot 2024-05-01 213527](https://github.com/addff/2403-ITT440/assets/166004983/019fcf5c-e975-4757-9860-5cb47398ffbe)
+ 
  ## C or Python, Which Language is Better ?
 
 There is no definite answer for above question as different programmers would have different opinion on which language is more suitable for socket programming. Alas, what programmer seek in learning and creating socket programming will differ on which language that they use. At the end of the day, both languages give different exposure and knowledge to its user.
