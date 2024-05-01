@@ -29,6 +29,30 @@ The C language is a imperative language that is commonly used in Unix systems an
   * Clang
 
 ## Overview
+```c
+#include <stdio.h>
+
+int main() {
+    int num1, num2, sum;
+
+// Input the first number
+printf("Enter the first number: ");
+scanf("%d", &num1);
+
+// Input the second number
+printf ("Enter the first number: ");
+scanf ("%d", &num2);
+
+// Calculate the sum
+sum = num1 + num2;
+
+// Display the sum
+printf ("The sum of %d and %d is %d\n", num1, num2, sum);
+
+return 0;
+
+}
+
 
 ## What is Python
 Python is programming language that was created by Guido van Rossum and it was released in 1991. Python is an Open-source, high-level and general-purpose programming language. It is used for: * Web development
