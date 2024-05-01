@@ -76,5 +76,5 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
 The system has confirmed GCC version 13.2.0 is successfully installed!
 
-## Coclusion
+## Conclusion
 
