@@ -1,4 +1,8 @@
-### ITT 440 INDIVIDUAL LABWORKS
+### ITT 440 INDIVIDUAL LABWORKS<br /><br />
+
+
+![IDEs](https://github.com/addff/2403-ITT440/assets/166004313/0775e9ac-7c40-4bc6-a7f2-7cd55bc1cc2a)
+
 # IDE Installation (LAB WORK 7)
 <br />
 
@@ -35,6 +39,8 @@ That is the requirement for an iDE. It brings such convenience to modern-day dev
 For this individual assignment I will proceed with using the can you guess it? The Visual Studio Code [Link](https://code.visualstudio.com),<br /><br /> 
 Why Visual Studio Code specifically? because Visual Studio Code Universally accepted code-editor and is supported by many as shown in the Stack Overflow 2023 Developer Survey, with 73.71% of the respondents reported that they use the editor [Link](https://survey.stackoverflow.co/2023/#technology-most-popular-technologies).<br /><br />
 
+### **NOTE** Visual Studio Code However is not considered as an IDE because it is a standalone source-code editor but with plugins it can rival proper IDEs and the size of the VS Code is only but a fraction of the size of for example Visual Studio hence my preferral.
+
 What exactly is the Visual Studio Code? it is a source-code editor that has been created by Microsoft and is compatible with Windows, Linux, macOS, and web browsers. It boasts features such as debugging support, syntax highlighting, intelligent code completion, snippets, code refactoring, and integrated version control with Git. Users have the ability to modify the theme, keyboard shortcuts, preferences, and can also install extensions to enhance its functionality.
 
 ## **Visual Studio Code Installation**
@@ -47,4 +53,9 @@ The steps are :
 ![440_ind_asm_1](https://github.com/addff/2403-ITT440/assets/166004313/a8037e8b-9ea3-4209-bcd1-18986acf3f54)
 <br />
 
- 2.
+ 2. Once youve click the download button for your preffered OS as for me the "Download for WIndows" button you will be redirected to the [Link](https://code.visualstudio.com/docs/?dv=win64user). Do read all the documentation by the Visual Studio Code team as it may help you.
+<br /><br />
+![440_ind_asm_2](https://github.com/addff/2403-ITT440/assets/166004313/d52b2883-4f94-4679-a4c3-fc74a1312d6b)
+<br />
+
+ 3. 
